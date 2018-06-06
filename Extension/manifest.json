@@ -1,0 +1,17 @@
+{
+    "name": "Mitme veebilehe avamine",
+    "description": "Avab kiirelt mitu veebilehte korraga",
+    "version": "1.0",
+
+    "manifest_version": 2,
+
+    "browser_action":{
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions":[
+        "tabs",
+        "storage"
+    ]
+}
